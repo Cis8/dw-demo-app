@@ -8,8 +8,5 @@
 
   jdk: openjdk8
 
-  cache:
-    directories:
-      - C:\Users\emaci\Documents\Trevis\files\vagrant-ansible\provisioning\docker-resources\commons\artifacts\local-m2-cache\org\eclipse\aether\aether-util\0.9.0.M2
   script:
     - mvn clean install
